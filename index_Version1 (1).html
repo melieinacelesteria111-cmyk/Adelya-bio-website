@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adelya Cantik - Personal Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Adelya</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-image-wrapper">
+                    <img src="https://images.pngimg.me/uploads/2022/05/anime-girl-png-22.png" alt="Adelya Logo" class="logo-image">
+                </div>
+                <h1 class="hero-title">Adelya Cantik</h1>
+                <p class="hero-subtitle">Pelajar | Content Enthusiast | Sleep Specialist</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Aku ini tipe yang paling betah di kasur sambil scroll daftar tontonan.
+                    </p>
+                    <p class="about-desc">
+                        Hobiku? Maraton anime sampai lupa waktu, terus lanjut baca manga/komiknya biar nggak penasaran nunggu season baru. Kalau udah laper, langsung gas makan—ngemil atau makan berat, sikat aja, soalnya nonton tanpa camilan rasanya ada yang kurang. 
+                    </p>
+                    <p class="about-desc">
+                        Dan jujur, tidur itu hobi paling serius. Kasih aku pantal, selimut, dan waktu luang, dijamin langsung mode hibernasi aktif. Intinya hidupku muter di: <em>nonton anime → baca manga → makan enak → tidur nyenyak → repeat</em>.
+                    </p>
+                    <p class="about-quote">
+                        "<strong>Kaum rebahan berprestasi, spesialis nolep level dewa</strong> 😴🍜📚"
+                    </p>
+                </div>
+                
+                <div class="interests">
+                    <h3>Ketertarikan & Hobi</h3>
+                    <div class="interest-tags">
+                        <span class="tag">🎬 Anime</span>
+                        <span class="tag">📚 Manga</span>
+                        <span class="tag">🍜 Food</span>
+                        <span class="tag">😴 Sleep</span>
+                        <span class="tag">📖 Reading</span>
+                        <span class="tag">🎮 Entertainment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Tertarik untuk diskusi atau sekedar say hello? Jangan ragu untuk menghubungi saya!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📧</span>
+                            <a href="mailto:senkakuishigami111@gmail.com">senkakuishigami111@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">👤</span>
+                            <p>Adelya Cantik</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    <span class="success-message" id="successMessage"></span>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Adelya Cantik. All rights reserved.</p>
+            <p>Made with ❤️ and ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
